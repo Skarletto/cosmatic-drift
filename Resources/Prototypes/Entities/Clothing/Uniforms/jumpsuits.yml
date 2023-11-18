@@ -1405,3 +1405,14 @@
       - state: equipped-INNERCLOTHING-jumpsuit
       - state: equipped-INNERCLOTHING-shirt
         color: "#b30000"
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPassengerFormal
+  name: passenger formal suit
+  description: A passenger's formal suit
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/passengerformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/passengerformal.rsi
